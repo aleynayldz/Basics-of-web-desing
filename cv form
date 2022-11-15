@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>İş Başvuru Formu</title>
+</head>
+
+<body>
+     <h1 align="center">CV FORM</h1>
+<form action="" method="post" enctype="multipart/form-data">
+     <fieldset>
+        <b> <legend>EĞİTİM BİLGİLERİ</legend> <b/> 	
+		 <input type="checkbox" id="onay"
+		 value="1"
+		 <label for="onay">İlkokul</label> <br/>
+		 <input type="checkbox" id="onay"
+		 value="1"
+		 <label for="onay">Ortaokul</label> <br/>
+		 <input type="checkbox" id="onay"
+		 value="1"
+		 <label for="onay">Lise</label> <br/>
+		 <input type="checkbox" id="onay"
+		 value="1"
+		 <label for="onay">Üniversite</label> <br/>
+		 <input type="checkbox" id="onay"
+		 value="1"
+		 <label for="onay">Yüksek Lisans</label> <br/>
+		 
+	</fieldset>
+	<fieldset>
+	      <legend>KİŞİSEL BİLGİLER</legend>
+		  <table >
+		     <tr> 
+			    <td>Ad</td>
+				<td>
+				<input type="text" name="ad" id="ad"
+				placeholder="adınızı girin" required>
+				</td>
+			</tr>
+			<tr> 
+			<tr> 
+			    <td>Soyad</td>
+				<td>
+				<input type="text" name="sad" id="sad"
+				placeholder="soyadınızı girin" required>
+				</td>
+			</tr>
+			<tr>
+			    <td>Yaş</td>
+				<td>
+				    <input type="number" min="20" max="40"
+					step="2">
+				</td>
+			</tr>
+			<tr> 
+			    <td>Doğum Yeri</td>
+				<td>
+				<input type="doğum yeri"
+				</td>
+			</tr>
+			<tr> 
+			    <td>Adres</td>
+				<td>
+				<input type="adres"
+				</td>
+			</tr>
+			<tr> 
+			    <td>Telefon Numarası</td>
+				<td>
+				<input type="telefon"
+				</td>
+			</tr>
+			<tr> 
+			    <td>Mail</td>
+				<td>
+				<input type="e-mail" id="eposta" 
+				name="eposta">
+				</td>
+			</tr>
+				
+			<tr> 
+			    <td>Fotoğraf Ekle</td>
+				<td>
+				<input type="file" id="dosya" name="dosya">
+				</td>
+			</tr>
+			</table>
+     </fieldset>
+     <fieldset>
+     <legend>MESLEKİ BİLGİLER</legend>
+     <table>
+          <tr>
+             <td>Sektöre Giriş Tarihi</td>		
+			 <td>
+			 <input type="date" id="tarih" name="tarih">
+			 </td>	
+         </tr>			 
+		  <tr>
+             <td>Sektör Deneyimi</td>		
+			 <td>
+			 <label>
+			     <input type="radio" id="yil1" name="yil"
+				 value="1"> 1-3 yıl
+				 </label><br>
+				 <label>
+				       <input type="radio" id="yil1" name="yil"
+					   value="1"> 4-10 yıl
+					   </label><br>
+					    <input type="radio" id="yil1" name="yil"
+					   value="1"> 15 yıl ve üzeri
+					   </label><br>
+					   </td>	
+         </tr>		
+		  <tr>
+             <td>PROGRAMLAMA DİLLERİ</td>		
+			 <td>
+			    <select size="5" multiple name="pdil" 
+				id=pdil>
+				<option value="1">C#</option>
+				<option value="2">PHP</option>
+				<option value="3">JAVA</option>
+				<option value="4">JAVASCRİPT</option>
+				<option value="5">PYTHON</option>
+				<option value="6">PASCAL</option>
+				</select>
+			 </td>	
+			 </tr>		
+		  </table>
+		  </fieldset>
+		  <fieldset>
+	
+	<legend>YABANCI DİLLER</legend>	  
+	<table>
+	 <tr> 
+	 <label>
+			     <input type="radio" id="yil1" name="yil"
+				 value="1"> İngilizce
+				 </label><br>
+				 <label>
+				       <input type="radio" id="yil1" name="yil"
+					   value="1"> Almanca
+					   </label><br>
+					   <input type="radio" id="yil1" name="yil"
+					   value="1"> Hepsi
+					   </label><br>
+					    <input type="radio" id="yil1" name="yil"
+					   value="1"> Hiçbiri
+					   </label></br>
+					  </td>
+					 </tr>
+					 </table>
+		  </fieldset>
+		<fieldset>
+     <legend>EKLEMEK İSTEDİKLERİNİZ</legend>  <br>
+	  <br>
+	   <br>
+	    <br>
+		 <br>
+     <table>
+          <tr>
+		  </table>
+		  </tr>
+		  </fieldset>
+		  
+		  <fieldset>
+     <legend>İŞTEN BEKLENTİLERİNİZ NEDİR?</legend>  <br>
+	  <br>
+	   <br>
+	    <br>
+		 <br>
+		  <input type="submit" input type="reset">
+     <table> 	
+          <tr>
+					 
+					   
+					   
+					   
+					
+					   
+	  
+					   
+					    
+	
+					   
+	  
+				
+       	
+	
+  </form>
+ </body>
+ 
+	 
+
+
